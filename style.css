@@ -1,5 +1,7 @@
 body {
     padding: 37px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
   }
   
   .container {
@@ -33,5 +35,7 @@ body {
     font-weight: bold;
     text-decoration: none;
     color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
   }
   
