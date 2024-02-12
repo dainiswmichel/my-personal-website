@@ -1,36 +1,37 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-}
-
-header {
-    text-align: center;
+    padding: 37px 0;
+  }
+  
+  .container {
     max-width: 600px;
     margin: 0 auto;
-}
-
-img {
+    text-align: center;
+  }
+  
+  .headshot {
     max-width: 100%;
     height: auto;
     border-radius: 50%;
     margin-bottom: 20px;
-}
-
-h1, p {
+  }
+  
+  .caption {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .additional-info {
+    font-size: 1.2em;
+    margin-top: 20px;
+  }
+  
+  .listen-link,
+  .project-link,
+  .invention-link {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+    text-decoration: none;
     color: #333;
-}
-
-section {
-    margin-bottom: 40px;
-}
-
-audio {
-    width: 100%;
-    margin-top: 10px;
-}
+  }
+  
